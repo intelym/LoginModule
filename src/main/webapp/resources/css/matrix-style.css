@@ -1,0 +1,26 @@
+/* Charts & graphs **/
+.chart, .pie, .bars, #donut, #interactive, #placeholder, #placeholder2 {
+	height: 150px;
+	max-width: 100%;
+}
+#choices{ border-top:1px solid #dcdcdc; margin:10px 0; padding:10px;}
+#choices br{ display:none;}
+#choices input{ margin:-5px 5px 0 0;}
+#choices label{ display:inline-block; padding-right:20px; }
+#tooltip {
+	position: absolute;
+	display:none;
+	border: none;
+	padding: 3px 8px;
+	border-radius: 3px;
+	font-size: 10px;
+	background-color: #222222;
+	color: #ffffff;
+	z-index: 25;
+}
+
+
+.container {
+  width: 80%;
+  margin: 15px auto;
+}
